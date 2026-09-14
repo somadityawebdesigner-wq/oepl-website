@@ -1,0 +1,60 @@
+'use client';
+
+export default function Transforming() {
+  return (
+    <section className="relative bg-white py-16 overflow-hidden">
+      
+      {/* Background Watermark Gear/Logo (jaise original image mein peeche halka sa dikh raha hai) */}
+      <div className="absolute inset-0 flex items-center justify-center pointer-events-none opacity-[0.03] z-0">
+        <div className="w-[600px] h-[600px] rounded-full border-[40px] border-red-600 flex items-center justify-center">
+          <span className="text-9xl font-extrabold text-red-600">OE</span>
+        </div>
+      </div>
+
+      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 z-10">
+        
+        {/* Section Heading - Centered */}
+        <div className="text-center mb-10">
+          <h2 className="text-2xl sm:text-3xl font-bold text-red-700 tracking-wide">
+            Transforming With Innovations
+          </h2>
+        </div>
+
+        {/* Content Grid: Left Image, Right Text */}
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+          
+          {/* Left Side: Fixed Compact Image */}
+          <div className="lg:col-span-5 flex justify-center">
+            <div className="w-full max-w-[420px] h-[320px] rounded-md overflow-hidden shadow-md bg-gray-100 border border-gray-200">
+              <img 
+                src="https://oeplind.com/wp-content/uploads/2025/04/tranforming-oepl.jpg" 
+                alt="Tunnel Railway" 
+                className="w-full h-full object-cover"
+                onError={(e) => {
+                  e.target.src = "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&w=800";
+                }}
+              />
+            </div>
+          </div>
+
+          {/* Right Side: Exact Original Content */}
+          <div className="lg:col-span-7 space-y-4 text-gray-700 text-sm sm:text-base leading-relaxed">
+            <p>
+              <strong className="text-gray-900">OLYMPUS Engineering Pvt. Ltd.</strong> is an <strong className="text-gray-900">ISO 9001-certified company</strong> based in <strong className="text-gray-900">Ghaziabad, Uttar Pradesh, India</strong>, specializing in high-quality engineering solutions for the <strong className="text-gray-900">Railways, Metro and Aerospace industries</strong>. We are committed to delivering precision-engineered products that meet global quality and safety standards.
+            </p>
+            
+            <p>
+              With advanced manufacturing facilities and a skilled workforce, we provide <strong className="text-gray-900">customized solutions</strong> for critical industrial applications. Our expertise includes <strong className="text-gray-900">CNC machining, precision fabrication and high-performance component manufacturing</strong> tailored to industry-specific requirements.
+            </p>
+            
+            <p>
+              At OLYMPUS Engineering, <strong className="text-gray-900">quality, innovation and reliability</strong> are at the core of our operations. Through continuous improvement and cutting-edge technology, we ensure durable, efficient and cost-effective solutions for clients worldwide.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+  );
+}
