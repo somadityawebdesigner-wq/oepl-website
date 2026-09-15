@@ -46,7 +46,7 @@ export default function Pillars() {
         
         {/* Section Heading */}
         <div className="text-center mb-12">
-          <h2 className="text-2xl sm:text-3xl font-bold text-[#cc0000] tracking-wide">
+          <h2 className="text-2xl sm:text-[22px] font-bold text-[#cc0000] tracking-wide">
             Four Pillars Of Our Business
           </h2>
         </div>

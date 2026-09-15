@@ -29,7 +29,7 @@ export default function CoreStrength() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         
         {/* Section Heading */}
-        <h2 className="text-3xl sm:text-4xl font-extrabold text-red-700 mb-3">
+        <h2 className="text-3xl sm:text-[22px] font-extrabold text-red-700 mb-3">
           Core Strength
         </h2>
         <p className="text-gray-700 text-base sm:text-lg max-w-3xl mx-auto mb-14 font-medium">

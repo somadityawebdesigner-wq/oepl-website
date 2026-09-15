@@ -33,8 +33,8 @@ export default function Products({ variant = "home" }) {
     <section className="py-16 pb-0 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         
-        {/* Section Heading */}
-        <h2 className="text-3xl sm:text-4xl font-extrabold text-red-700 mb-4">
+        {/* Section Heading - 44px for product page variant */}
+        <h2 className={`font-bold text-red-700 mb-4 ${variant === "product" ? "text-3xl sm:text-[57px]" : "text-3xl sm:text-[22px]"}`}>
           Our Products
         </h2>
 

@@ -4,18 +4,16 @@ import Image from 'next/image';
 export default function Navbar() {
   return (
     <header className="absolute top-0 left-0 right-0 z-50 bg-transparent w-full">
-      {/* Container width ko stretch kiya hai aur padding adjust ki hai */}
       <div className="max-w-[1440px] mx-auto px-6 lg:px-12 h-24 flex items-center justify-between">
         
-        {/* Logo with Image */}
         <Link href="/" className="flex items-center group">
-          <div className="relative h-12 w-auto flex items-center">
+          <div className="relative h-16 w-auto flex items-center">
             <Image 
               src="https://oeplind.com/wp-content/uploads/2025/03/cropped-Navy-And-Grey-Classic-Circle-Business-Consulting-Logo-150x80.png"
               alt="Olympus Engineering Pvt. Ltd."
               width={150}
               height={80}
-              className="h-12 w-auto object-contain"
+              className="h-16 w-auto object-contain"
               priority
             />
           </div>

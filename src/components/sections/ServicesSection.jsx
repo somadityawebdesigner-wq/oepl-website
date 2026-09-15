@@ -17,11 +17,11 @@ export default function Services({ variant = "home" }) {
   ];
 
   return (
-    <section className="py-12 sm:py-16 bg-white">
+    <section className="py-16 sm:py-16 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         
-        {/* Section Heading */}
-        <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-red-700 mb-3 sm:mb-4">
+        {/* Section Heading: 57px for services page variant, 22px for home */}
+        <h2 className={`font-bold text-red-700 mb-3 sm:mb-4 ${variant === "service" ? "text-3xl sm:text-[57px]" : "text-2xl sm:text-[22px] md:text-[22px]"}`}>
            Services
         </h2>
 

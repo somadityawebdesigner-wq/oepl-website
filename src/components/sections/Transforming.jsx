@@ -4,18 +4,15 @@ export default function Transforming() {
   return (
     <section className="relative bg-white py-16 overflow-hidden">
       
-      {/* Background Watermark Gear/Logo (jaise original image mein peeche halka sa dikh raha hai) */}
       <div className="absolute inset-0 flex items-center justify-center pointer-events-none opacity-[0.03] z-0">
-        {/* <div className="w-[600px] h-[600px] rounded-full border-[40px] border-red-600 flex items-center justify-center">
-          <span className="text-9xl font-extrabold text-red-600">OE</span>
-        </div> */}
+       
       </div>
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 z-10">
         
         {/* Section Heading - Centered */}
         <div className="text-center mb-10">
-          <h2 className="text-2xl sm:text-3xl font-bold text-red-700 tracking-wide">
+          <h2 className="text-[22px] sm:text-[22px] font-bold text-red-700 tracking-wide">
             Transforming With Innovations
           </h2>
         </div>

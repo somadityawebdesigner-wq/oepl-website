@@ -1,11 +1,11 @@
 export default function AboutContent() {
   return (
-    <section className="py-12 lg:py-20 bg-white text-gray-800">
+    <section className="py-16 lg:py-20 bg-white text-gray-800 pb-8">
       <div className="max-w-[1440px] mx-auto px-6 lg:px-12">
         
         {/* Main Section Heading */}
         <div className="text-center mb-12">
-          <h2 className="text-3xl sm:text-4xl font-serif font-bold text-red-700 tracking-wide uppercase inline-block pb-2 border-b-2 border-red-700">
+          <h2 className="text-3xl sm:text-[40px] font-serif  text-red-700 tracking-wide uppercase inline-block pb-2">
             About Us
           </h2>
         </div>
