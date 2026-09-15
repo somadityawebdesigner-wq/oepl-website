@@ -7,7 +7,7 @@ export default function TrainHeroSection() {
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat z-0"
         style={{
-          backgroundImage: `url('https://oeplind.com/wp-content/uploads/2025/04/mumbai-delhi-howrah-train.jpg')` // Aap yahan apni train/bridge image ka direct URL daal sakte hain
+          backgroundImage: `url('/Images/mumbai-delhi-howrah-train.webp')` // Aap yahan apni train/bridge image ka direct URL daal sakte hain
         }}
       >
         {/* Dark overlay taaki background thoda dim rahe aur professional lage */}

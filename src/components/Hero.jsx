@@ -3,13 +3,13 @@ import { useState, useEffect } from 'react';
 
 const slides = [
   {
-    image: 'https://oeplind.com/wp-content/uploads/2025/03/banner-cepl.png',
+    image: './Images/2-1.png',
   },
   {
-    image: 'https://oeplind.com/wp-content/uploads/2025/04/2-1.png',
+    image: './Images/3-1.png',
   },
   {
-    image: 'https://oeplind.com/wp-content/uploads/2025/04/3-1.png',
+    image: './Images/banner-cepl.png',
   }
 ];
 

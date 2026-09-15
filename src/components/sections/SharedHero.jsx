@@ -5,7 +5,7 @@ export default function SharedHero({ title, bgImage, showTitle = false, height =
     <section className={`relative ${height} w-full flex items-center justify-center bg-gray-900`}>
       <div className="absolute inset-0 z-0">
         <img 
-          src={bgImage || "https://oeplind.com/wp-content/uploads/2025/04/14.png"} 
+          src={bgImage || "/Images/14.webp"} 
           alt={title || "Banner"}
           className="w-full h-full object-cover"
         />

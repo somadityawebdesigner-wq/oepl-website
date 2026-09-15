@@ -17,14 +17,14 @@ export default function AboutContent() {
           <div className="lg:col-span-5 flex flex-col justify-between space-y-6">
             <div className="p-2 border-2 border-red-700 bg-white shadow-md">
               <img 
-                src="https://oeplind.com/wp-content/uploads/2025/03/8.jpg" 
+                src="/Images/8.webp" 
                 alt="Olympus Engineering Train 1" 
                 className="w-full h-[240px] object-cover block"
               />
             </div>
             <div className="p-2 border-2 border-red-700 bg-white shadow-md">
               <img 
-                src="https://oeplind.com/wp-content/uploads/2025/04/sddefault-1.jpg" 
+                src="/Images/sddefault-1.webp" 
                 alt="Olympus Engineering Train 2" 
                 className="w-full h-[240px] object-cover block"
               />

@@ -24,11 +24,11 @@ export default function Transforming() {
           <div className="lg:col-span-5 flex justify-center">
             <div className="w-full max-w-[420px] h-[320px] rounded-md overflow-hidden shadow-md bg-gray-100 border border-gray-200">
               <img 
-                src="https://oeplind.com/wp-content/uploads/2025/04/tranforming-oepl.jpg" 
+                src="/Images/tranforming-oepl.webp" 
                 alt="Tunnel Railway" 
                 className="w-full h-full object-cover"
                 onError={(e) => {
-                  e.target.src = "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&w=800";
+                  e.target.src = "/Images/tranforming-oepl.webp";
                 }}
               />
             </div>

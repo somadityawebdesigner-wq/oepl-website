@@ -4,15 +4,15 @@ export default function Services({ variant = "home" }) {
   const services = [
     {
       title: "Testing And Commissioning Work For Rakes For Metro",
-      image: "https://oeplind.com/wp-content/uploads/2025/04/MetroTracks.png"
+      image: "./Images/MetroTracks.webp"
     },
     {
       title: "Servicing & Maintenance Of RMPU System In AC Coaches",
-      image: "https://oeplind.com/wp-content/uploads/2025/04/oelp-services1.png"
+      image: "./Images/oelp-services1.webp"
     },
     {
       title: "Electrical Cable Laying Work",
-      image: "https://oeplind.com/wp-content/uploads/2025/04/oelp-services2.jpg"
+      image: " ./Images/oelp-services2.webp"
     }
   ];
 

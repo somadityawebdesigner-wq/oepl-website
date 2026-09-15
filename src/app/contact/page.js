@@ -9,7 +9,7 @@ export default function ContactPage() {
   return (
     <main className="min-h-screen bg-white">
       {/* Top Banner */}
-      <SharedHero title="Contact Us" showTitle={true} height="h-[600px]" bgImage={"	https://oeplind.com/wp-content/uploads/2025/03/CONTACT-US.jpg"} />
+      <SharedHero title="Contact Us" showTitle={true} height="h-[600px]" bgImage={"Images/CONTACT-US.webp"} />
       
       <ContactSection />
     </main>
