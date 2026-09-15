@@ -32,7 +32,7 @@ export default function Footer() {
               <li><a href="/about" className="text-gray-600 hover:text-[#cc0000] transition-colors">About Us</a></li>
               <li><a href="/products" className="text-gray-600 hover:text-[#cc0000] transition-colors">Products</a></li>
               <li><a href="/services" className="text-gray-600 hover:text-[#cc0000] transition-colors">Services</a></li>
-              <li><a href="/alliances" className="text-gray-600 hover:text-[#cc0000] transition-colors">Our Alliances</a></li>
+              {/* <li><a href="/alliances" className="text-gray-600 hover:text-[#cc0000] transition-colors">Our Alliances</a></li> */}
               <li><a href="/contact" className="text-gray-600 hover:text-[#cc0000] transition-colors">Contact Us</a></li>
             </ul>
           </div>
