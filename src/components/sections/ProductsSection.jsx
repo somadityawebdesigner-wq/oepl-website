@@ -6,26 +6,26 @@ export default function Products({ variant = "home" }) {
       title: "LED Displays & Videos",
       type: "grid",
       images: [
-        "https://oeplind.com/wp-content/uploads/2025/04/Untitled-design-4.jpg",
-        "https://oeplind.com/wp-content/uploads/2025/04/Untitled-design-4.jpg",
-        "https://oeplind.com/wp-content/uploads/2025/04/Untitled-design-4.jpg",
-        "https://oeplind.com/wp-content/uploads/2025/04/Untitled-design-4.jpg"
+        "./Images/Untitled-design-4.webp",
+        " ./Images/Untitled-design-4.webp",
+        " ./Images/Untitled-design-4.webp",
+        " ./Images/Untitled-design-4.webp"
       ]
     },
     {
       title: "PCBA Assemblies",
       type: "single",
-      image: "https://oeplind.com/wp-content/uploads/2025/03/pcb1.jpg"
+      image: "./Images/pcb1.webp"
     },
     {
       title: "Master Controller",
       type: "single",
-      image: "https://oeplind.com/wp-content/uploads/2025/03/master2.jpg"
+      image: "./Images/master2.webp"
     },
     {
       title: "ZS Coupler",
       type: "single",
-      image: "https://oeplind.com/wp-content/uploads/2025/04/Zs-coupler.png"
+      image: "./Images/Zs-coupler.webp"
     }
   ];
 
